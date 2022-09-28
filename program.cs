@@ -1,2 +1,0 @@
-﻿
-Exercicios.Exercicio60();
