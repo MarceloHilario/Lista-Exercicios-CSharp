@@ -1,0 +1,19 @@
+double a, maior, menor;
+        Console.WriteLine("Digite os números");
+        a = double.Parse(Console.ReadLine());
+        maior = a;
+        menor = maior;
+        do
+        {
+            a = double.Parse(Console.ReadLine());
+            if(a > maior)
+            {
+                maior = a;
+            }
+            if (a > 0 && a < menor)
+            {
+                menor = a;
+            }
+        } while (a >= 0);
+        Console.WriteLine("O maior é: " + maior);
+        Console.WriteLine("O menor é: " + menor);

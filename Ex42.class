@@ -1,0 +1,14 @@
+int a, maior, menor;
+
+        Console.WriteLine("Digite  valores");
+        a = int.Parse(Console.ReadLine());
+        maior = a;
+        menor = maior;
+        do
+        {
+            a = int.Parse(Console.ReadLine());
+
+            if (a > maior) maior = a;
+            if (a < menor && a != 0) menor = a;
+        } while (a != 0);
+        Console.WriteLine($"O maior é {maior}, e o menor é {menor}.");

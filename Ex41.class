@@ -1,0 +1,23 @@
+int a;
+        Console.WriteLine("Digite a idade da criança para consultar a turma de natação");
+        a = int.Parse(Console.ReadLine());  
+        if(a >= 5 && a <= 7)
+        {
+            Console.WriteLine("Infantil A");
+        }
+        if (a >= 8 && a <= 11)
+        {
+            Console.WriteLine("Infantil B");
+        }
+        if (a >= 12 && a <= 13)
+        {
+            Console.WriteLine("Juvenil A");
+        }
+        if (a >= 14 && a <= 17)
+        {
+            Console.WriteLine("Juvenil B");
+        }
+        if (a >= 18)
+        {
+            Console.WriteLine("Adultos");
+        }

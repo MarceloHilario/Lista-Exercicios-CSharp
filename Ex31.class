@@ -1,0 +1,18 @@
+int a, somai = 0, somap = 0;
+        Console.WriteLine("Digite os números positivos");
+        do
+        {
+            a = int.Parse(Console.ReadLine());
+            if (a % 2 == 0 && a > 0)
+            {
+                Console.WriteLine("O número é par!");
+                somap = somap + a;
+            }
+            if (a % 2 != 0 && a > 0)
+            {
+                Console.WriteLine("O número é impar!");
+                somai = somai + a;
+            }
+        } while (a > 0);
+        Console.WriteLine("A soma dos números pares é: " + somap);
+        Console.WriteLine("A soma dos números impares é: " + somai);

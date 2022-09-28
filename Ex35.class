@@ -1,0 +1,8 @@
+double a;
+        for (int i = 0; i <= 100; i++)
+        {
+            Console.WriteLine(i);
+            if (i % 10 == 0)
+            {
+                Console.WriteLine("Múltiplo de 10");
+            }

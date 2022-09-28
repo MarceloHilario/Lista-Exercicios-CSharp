@@ -1,0 +1,6 @@
+double a, b;
+        Console.WriteLine("Preço das peças:");
+        a = double.Parse(Console.ReadLine());
+        Console.WriteLine("Quantidade das peças é: ");
+        b = double.Parse(Console.ReadLine());
+        Console.WriteLine("A comissão é: " + a * b*5/100);

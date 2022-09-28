@@ -1,0 +1,25 @@
+int C, N = 0, E = 0;
+        string r;
+        do
+        {
+            Console.WriteLine("Digite o código do funcionário: ");
+            Console.ReadLine();
+            Console.WriteLine("Digite suas horas trabalhadas:");
+            C = int.Parse(Console.ReadLine());
+            if (C >= 50)
+            {
+                E = (C - 50) * 20;
+            }
+            if (C >= 50)
+            {
+                N = 50 * 10;
+            }
+            if (C < 50)
+            {
+                N = C * 10;
+            }
+            Console.WriteLine($"Seu salário total é de {E+N} reais. \nE o valor de seu trabalho exenente é de {E} reais. \n");
+            
+            Console.WriteLine("Deseja continuar?");
+            r = Console.ReadLine();
+        } while (r == "s" || r == "S");

@@ -1,0 +1,6 @@
+double a, b;
+        Console.WriteLine("Digite a cotação do dolar:");
+        a = double.Parse(Console.ReadLine());
+        Console.WriteLine("Qual o valor a ser convertido: ");
+        b = double.Parse(Console.ReadLine());
+        Console.WriteLine("O valor convertido é: " + a*b);

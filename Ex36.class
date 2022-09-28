@@ -1,0 +1,22 @@
+double a, b = 0, maior, menor, soma = 0;
+        Console.WriteLine("Digite os números");
+        a = double.Parse(Console.ReadLine());
+        maior = a;
+        menor = maior;
+        for (int i = 1; i < 10; i++)
+        {
+            a = double.Parse(Console.ReadLine());
+            if (a > maior)
+            {
+                maior = a;
+            }
+            if (a < menor)
+            {
+                menor = a;
+            }
+            soma = soma + a;
+            b++;
+        }
+        Console.WriteLine("O maior é: " + maior);
+        Console.WriteLine("O menor é: " + menor);
+        Console.WriteLine("A média dos valores é: " + soma / b);

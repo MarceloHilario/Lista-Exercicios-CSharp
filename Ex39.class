@@ -1,0 +1,23 @@
+int C, N = 0, E = 0;
+        string r;
+        do
+        {
+            Console.WriteLine("Digite um número: ");
+            C = int.Parse(Console.ReadLine());
+            if (C % 2 == 0)
+            {
+                Console.WriteLine("O número é par");
+            }
+            else Console.WriteLine("O número não é par");
+
+            if (C < 0)
+            {
+                Console.WriteLine("O número é negativo\n");
+            }
+            if (C > 0)
+            {
+                Console.WriteLine("O número é positivo\n");
+            }
+            Console.WriteLine("Deseja continuar?");
+            r = Console.ReadLine();
+        } while (r == "s" || r == "S");

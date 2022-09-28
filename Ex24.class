@@ -1,0 +1,50 @@
+int a, b;
+        string A, r, c, d, e;
+
+        Console.WriteLine("Escreva 2 números");
+        a = int.Parse(Console.ReadLine());
+        b = int.Parse(Console.ReadLine());
+        Console.WriteLine("Escreva oque realiza fazer entra as opções: \n" +
+            "1 – Verificar se um dos números lidos é ou não múltiplo do outro \n" +
+            "2 – Verificar se os dois números lidos são pares \n" +
+            "3 – Verificar se a média dos dois números é maior ou igual a 7. \n" +
+            "4 – Sair ");
+        do
+        {
+            A = Console.ReadLine();
+            if (a % b == 0 && b % a == 0)
+            {
+                c = ($"Número {a} é multiplo do número {b} ou vice versa!");
+            }
+            else c = ($"Número {a} não é multiplo do número {b} ou vice versa!");
+            if (a % 2 == 0)
+            {
+                d = ($"O número {a} é par.");
+            }
+            if (b % 2 == 0)
+            {
+                d = ($"O número {b} é par.");
+            }
+            else Console.WriteLine("Ambos são ímpares!");
+            if ((a + b) / 2 >= 7)
+            {
+                e = ("A média entre os números é maior que 7");
+            }
+            else e = ("A média entre os números é menor que 7");
+            switch (int.Parse(A))
+            {
+                case 1:
+                    r = "um";
+                    break;
+                case 2:
+                    r = "dois";
+                    break;
+                case 3:
+                    r = "três";
+                    break;
+                default:
+                    r = "Esse código é inválido";
+                    break;
+            }
+
+        } while (int.Parse(A) == 4);

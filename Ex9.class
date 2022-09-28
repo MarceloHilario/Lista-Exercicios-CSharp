@@ -1,0 +1,9 @@
+int a, m, d, dias;
+        Console.WriteLine("Digite sua idade em anos");
+        a = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite sua idade em meses");
+        m = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite sua idade em dias");
+        d = int.Parse(Console.ReadLine());
+        dias = (a * 365) + (m * 30) + d;
+        Console.WriteLine("Sua idade em dias é: " + dias);

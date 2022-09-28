@@ -1,0 +1,5 @@
+int a;
+        Console.WriteLine("Digite 1 valor inteiros: ");
+        a = int.Parse(Console.ReadLine());
+        if (a >= 0) Console.WriteLine("X");
+        if (a < 0) Console.WriteLine("X*(-1)");

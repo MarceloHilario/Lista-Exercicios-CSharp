@@ -1,0 +1,40 @@
+for (int i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i + "x1 = " + i*1);
+        }
+        for (int i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i + "x2 = " + i * 1);
+        }
+        for (int i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i + "x3 = " + i * 1);
+        }
+        for (int i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i + "x4 = " + i * 1);
+        }
+        for (int i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i + "x5 = " + i * 1);
+        }
+        for (int i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i + "x6 = " + i * 1);
+        }
+        for (int i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i + "x7 = " + i * 1);
+        }
+        for (int i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i + "x8 = " + i * 1);
+        }
+        for (int i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i + "x9 = " + i * 1);
+        }
+        for (int i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i + "x10 = " + i * 1);
+        }

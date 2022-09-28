@@ -1,0 +1,22 @@
+double a;
+        string r;
+        do
+        {
+            Console.WriteLine("Digite o índice médio da poluição: ");
+            a = double.Parse(Console.ReadLine());
+            if (a >= 0.5)
+            {
+                Console.WriteLine("O 1º, 2º e 3º grupo devem suspender as atividades");
+            }
+            else if (a >= 0.4)
+            {
+                Console.WriteLine("O 1º e 2º grupo devem suspender as atividades");
+            }           
+            else if (a >= 0.3)
+            {
+                Console.WriteLine("O 1º grupo deve suspender as atividades");
+            }
+            else Console.WriteLine("Está dentro da média!");
+            Console.WriteLine("Deseja continuar?");
+            r = Console.ReadLine();
+        } while (r == "s" || r == "S");

@@ -1,0 +1,28 @@
+int a, b, d, c;
+        string r;
+        do
+        {
+            Console.WriteLine("1 – Adição \n2 – Subtração \n3 – Multiplicação \n4 – Divisão");
+            c = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite 2 números: ");
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
+            if (c == 1)
+            {
+                Console.WriteLine(a + b);
+            }
+            if (c == 2)
+            {
+                Console.WriteLine(a - b);
+            }
+            if (c == 3)
+            {
+                Console.WriteLine(a * b);
+            }
+            if (c == 4)
+            {
+                Console.WriteLine(a / b);
+            }
+            Console.WriteLine("Deseja continuar?");
+            r = Console.ReadLine();  
+        } while (r == "s" || r == "S");

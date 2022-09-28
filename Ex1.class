@@ -1,0 +1,6 @@
+ double a, b;
+        Console.WriteLine("Digite a quantidade máxima: ");
+        a = double.Parse(Console.ReadLine());
+        Console.WriteLine("Digite a quantidade mínima: ");
+        b = double.Parse(Console.ReadLine());
+        Console.WriteLine("O estoque médio é: " + (a + b) / 2);

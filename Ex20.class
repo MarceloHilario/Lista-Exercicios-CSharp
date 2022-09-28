@@ -1,0 +1,15 @@
+double a, b, c,maior, menor;
+        var lista = new List<double>();
+        do
+        {
+            Console.WriteLine("Digite 3 valores");
+
+            lista.Add(a = double.Parse(Console.ReadLine()));
+            lista.Add(b = double.Parse(Console.ReadLine()));
+            lista.Add(c = double.Parse(Console.ReadLine()));
+            maior = lista.Max();
+            menor = lista.Min();
+        }while(a <= 0 || b <= 0 || c <= 0);
+        double div = maior / menor;
+        Console.WriteLine($"O menor vezes o maior {maior * menor}");
+        Console.WriteLine("O maior dividido pelo maior " + div);

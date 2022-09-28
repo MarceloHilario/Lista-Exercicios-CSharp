@@ -1,0 +1,11 @@
+double dist, litro, tempo, velocidade, auton = 12;
+        Console.WriteLine("Digite o tempo gasto na viagem: ");
+        tempo = double.Parse(Console.ReadLine());
+        Console.WriteLine("Digite a velocidade média na viagem: ");
+        velocidade = double.Parse(Console.ReadLine());
+        dist = tempo * velocidade;
+        litro = dist / 12;
+        Console.WriteLine("A velocidade média é: " + velocidade);
+        Console.WriteLine("O tempo gasto é: " + tempo);
+        Console.WriteLine("A distância percorida é: " + dist);
+        Console.WriteLine("A quantidade de litros é: " + litro);

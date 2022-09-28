@@ -1,0 +1,9 @@
+int a = 0, b = 0, c = 0;
+        var lista = new List<int>();
+
+        Console.WriteLine("Digite 3 valores");
+        lista.Add(int.Parse(Console.ReadLine()));
+        lista.Add(int.Parse(Console.ReadLine()));
+        lista.Add(int.Parse(Console.ReadLine()));
+
+        Console.WriteLine($"Ordem decrescente: {string.Join(", ", lista.OrderBy(x => x))}");

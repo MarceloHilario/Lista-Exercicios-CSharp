@@ -1,0 +1,18 @@
+string r;
+        Console.WriteLine("Escreva um código");
+        int c = int.Parse(Console.ReadLine());
+        switch (c)
+        {
+            case 1 :
+                    r = "um";
+                break;
+            case 2:
+                r = "dois";
+                break;
+            case 3:
+                r = "três";
+                break;
+                default : r = "Esse código é inválido";
+                break;
+        }
+        Console.WriteLine(r);

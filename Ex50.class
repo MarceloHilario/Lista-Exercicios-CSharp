@@ -1,0 +1,12 @@
+Random rd = new Random();
+        int a, rand_num = rd.Next(0, 100);
+        Console.WriteLine(rand_num);
+        do
+        {
+            Console.WriteLine("Digite um número de 1 à 100:");
+            a = int.Parse(Console.ReadLine());
+
+            if (rand_num > a) Console.WriteLine("O seu número é menor");
+            if (rand_num < a) Console.WriteLine("O seu número é maior");
+        } while (rand_num != a);
+        Console.WriteLine("Esse é o número");

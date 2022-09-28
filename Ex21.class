@@ -1,0 +1,14 @@
+string a;
+        Console.WriteLine("Digite os valores");
+        do
+        {
+            a = Console.ReadLine();
+            if(int.Parse(a) > 0)
+            {
+                Console.WriteLine("Positivo");
+            }
+            if (int.Parse(a) < 0)
+            {
+                Console.WriteLine("Negativo");
+            }
+        } while (a != "pare");

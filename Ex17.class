@@ -1,0 +1,8 @@
+int a;
+        Console.WriteLine("Digite 1 valor inteiro: ");
+        a = int.Parse(Console.ReadLine());
+        if (a >= 0 && a <= 9)
+        {
+            Console.WriteLine("O número é válido!");
+        }
+        else Console.WriteLine("O número não válido!");

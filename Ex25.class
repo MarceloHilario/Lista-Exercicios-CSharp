@@ -1,0 +1,15 @@
+string s;
+        double h;
+        Console.WriteLine("Escreva o seu sexo: ");
+        s = Console.ReadLine();
+        Console.WriteLine("Escreva a sua altura");
+        h = double.Parse(Console.ReadLine());
+        if (s == "Homem")
+        {
+            Console.WriteLine("Seu peso ideal é: " + ((72.7 * h) - 58));
+        }
+        if (s == "Mulher")
+        {
+            Console.WriteLine("Seu peso ideal é: " + ((62.1 * h) - 44.7));
+        }
+ 

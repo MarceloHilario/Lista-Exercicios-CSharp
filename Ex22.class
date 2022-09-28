@@ -1,0 +1,5 @@
+int a;
+        Console.WriteLine("Digite um número");
+        a = int.Parse(Console.ReadLine());
+        if (a > 0) Console.WriteLine("O número: " + a + " foi armazenado em a");
+        else Console.WriteLine("O número " + a + " foi armazenado em b");

@@ -1,0 +1,12 @@
+int i, a;
+        double soma = 0;
+        Console.WriteLine("Digite quantos números desejam exibir");
+        i = int.Parse(Console.ReadLine());
+        for (a = 0; a < i; a++)
+        {
+            if (a % 2 != 0)
+            {
+                soma = soma + (a*a);
+            }
+        }
+        Console.WriteLine("A soma dos quadrados dos números ímpares é: " + soma);

@@ -1,0 +1,5 @@
+double f, c;
+        Console.WriteLine("Digite uma temperatura em Graus Celcius:");
+        c = double.Parse(Console.ReadLine());
+        f = (9 * c + 160) / 5;
+        Console.WriteLine("A temperatura convertida é:" + f);

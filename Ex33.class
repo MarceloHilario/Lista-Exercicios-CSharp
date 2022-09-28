@@ -1,0 +1,12 @@
+double n, soma=0;
+        int i = 0;
+        Console.WriteLine("Digite sua matrícula");
+        Console.ReadLine();
+        Console.WriteLine("Digite as notas");
+        do
+        {
+            n =double.Parse(Console.ReadLine());
+            soma = soma + n;
+            i++;
+        } while (n >= 0);
+        Console.WriteLine("A média dos alunos é: " + soma/(i - 1));

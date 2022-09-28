@@ -1,0 +1,7 @@
+double v, r, a;
+        Console.WriteLine("Digite o raio: ");
+        r = double.Parse(Console.ReadLine());
+        Console.WriteLine("Digite o altura: ");
+        a = double.Parse(Console.ReadLine());
+        v = 3.14159 * r * r * a;
+        Console.WriteLine("O volume da lata é: " + v);
